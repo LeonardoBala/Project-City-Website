@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Libre+Baskerville&family=Raleway:wght@300&display=swap');
+
+body {
+    background-color: white;
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+#nav_bar {
+    width: auto; 
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+#nav_bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#nav_bar li {
+    display: inline;
+    margin: 22px;
+}
+
+#nav_bar a {
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+    font-weight:600;
+}
+
+#logo {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    width: 150px; 
+    height: auto; 
+    margin-left: 100px;
+}
+
+#logo img {
+    left: 20px;
+    top: 20px;
+    width: 150px;
+    height: auto;
+}
+
+.main-content {
+    width: auto;
+    height: 600px;
+    text-align: left;
+    background-image: url('/img/b-milano.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 20px;
+    margin-right: 100px;
+    margin-left: 120px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-bottom: 50px;
+}
+
+.text-img p{
+    width: 640px;
+    text-align: justify;
+    color: white;
+    margin-left: 71px;
+}
+
+.text-img h1 {
+    color: white;
+    margin-left: 70px;
+}
+
+/* Continutul second content*/
+.title_2 h3{
+    font-size: 25px;
+    color: black;
+    margin-left: 120px;
+}
+
+.second-content {
+    display: flex;
+    flex-direction: row;
+    gap: 92px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+    margin-left: 120px;
+    width: auto;
+    height: 500px;
+}
+
+.ImmagineContainer {
+    flex: 1;
+}
+
+.Immagine {
+    width: 100%;
+    height: 100%;
+}
+
+.Immagine img {
+    width: 393px;
+    height: 493px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.ImageText {
+    text-align: center; 
+    margin-top: 10px; 
+}
+
+.ImageText p {
+    margin: 0;
+    font-size: 16px; 
+    color: black;
+    font-weight:600;
+}
+
+/*Footer*/
+.site-footer {
+    background-color: #f0f0f0; 
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-right: 100px;
+    margin-left: 120px;
+    border-radius: 15px;
+}
+
+.info-column {
+    width: 50%;
+    margin-right: 50px;
+}
+
+.info-column p {
+    text-align: justify;
+}
+
+.link-columns {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.column {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.column h3 {
+    font-size: 16px;
+}
+
+.column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.column li {
+    margin-bottom: 8px;
+}
+
+.column a {
+    text-decoration: none;
+    color: #333;
+}
+
+.column a:hover {
+    color: #555;
+}

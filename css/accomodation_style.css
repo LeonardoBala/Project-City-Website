@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Libre+Baskerville&family=Raleway:wght@300&display=swap');
+
+body {
+    background-color: white;
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+#nav_bar {
+    width: auto; 
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+#nav_bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#nav_bar li {
+    display: inline;
+    margin: 22px;
+}
+
+#nav_bar a {
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+    font-weight:600;
+}
+
+#logo {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    width: 150px; 
+    height: auto; 
+    margin-left: 100px;
+}
+
+#logo img {
+    left: 20px;
+    top: 20px;
+    width: 150px;
+    height: auto;
+}
+
+/* Elemnti body */
+.Titolo {
+    font-size: 25;
+    text-align: left;
+    margin-right: 100px;
+    margin-left: 120px;
+}
+
+.acomodation-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content:space-between;
+    margin-right: 90px;
+    margin-left: 110px;
+}
+
+.acomodation {
+    width: 300px;
+    margin-bottom: 5px; 
+    padding: 10px;
+    overflow-x: hidden;
+}
+
+.acomodation h2,
+.acomodation img.star,
+.acomodation p.rev {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.acomodation h2 {
+    width: 202px; 
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.star {
+    width: 30px;
+    height: 30px;
+}
+
+.rev {
+    width: 50px;
+    text-align: center;
+}
+
+.description p {
+    font-size: 14px;
+    color: #555;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.image img {
+    width: 100%;
+    height: 210px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+/*Carousel*/
+.slider-wrapper {
+    margin: 0px;
+    position: relative;
+    overflow: hidden;
+}
+  
+.slides-container {
+    height: 280px;
+    width: 100%;
+    display: flex;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.slides-container {
+    scrollbar-width: none; 
+    -ms-overflow-style: none;  
+}
+
+/* WebKit */
+.slides-container::-webkit-scrollbar { 
+    width: 0;
+    height: 0;
+}
+
+.slide-arrow {
+    position: absolute;
+    display: flex;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 4rem;
+    background-color: white;
+    border: none;
+    width: 2rem;
+    font-size: 3rem;
+    padding: 0;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: opacity 100ms;
+}
+  
+.slide-arrow:hover,
+.slide-arrow:focus {
+    opacity: 1;
+}
+  
+#slide-arrow-prev-1,
+#slide-arrow-prev-2,
+#slide-arrow-prev-3,
+#slide-arrow-prev-4,
+#slide-arrow-prev-5,
+#slide-arrow-prev-6,
+#slide-arrow-prev-7,
+#slide-arrow-prev-8,
+#slide-arrow-prev-9,
+#slide-arrow-prev-10,
+#slide-arrow-prev-11,
+#slide-arrow-prev-12
+{
+    left: 0;
+    padding-left: 0.25rem;
+    border-radius: 0 2rem 2rem 0;
+}
+  
+#slide-arrow-next-1,
+#slide-arrow-next-2,
+#slide-arrow-next-3,
+#slide-arrow-next-4,
+#slide-arrow-next-5,
+#slide-arrow-next-6,
+#slide-arrow-next-7,
+#slide-arrow-next-8,
+#slide-arrow-next-9,
+#slide-arrow-next-10,
+#slide-arrow-next-11,
+#slide-arrow-next-12 {
+    right: 0;
+    padding-left: 0.75rem;
+    border-radius: 2rem 0 0 2rem;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    flex: 1 0 100%;
+}
+  
+.slide:nth-child(1) {
+    background-color: #49b293;
+}
+  
+.slide:nth-child(2) {
+    background-color: #b03532;
+}
+  
+.slide:nth-child(3) {
+    background-color: #6a478f;
+    margin: 0;
+}
+  
+.slide:nth-child(4) {
+    background-color: #da6f2b;
+}
+
+/*Footer*/
+.site-footer {
+    background-color: #f0f0f0; 
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-right: 100px;
+    margin-left: 120px;
+    border-radius: 15px;
+}
+
+.info-column {
+    width: 50%;
+    margin-right: 50px;
+}
+
+.info-column p {
+    text-align: justify;
+}
+
+.link-columns {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.column {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.column h3 {
+    font-size: 16px;
+}
+
+.column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.column li {
+    margin-bottom: 8px;
+}
+
+.column a {
+    text-decoration: none;
+    color: #333;
+}
+
+.column a:hover {
+    color: #555;
+}
